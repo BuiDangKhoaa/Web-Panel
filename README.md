@@ -25,6 +25,13 @@ Web panel (hoặc web hosting control panel) là một giao diện quản lý d�
 |Monitor - Logs
 |Security
 |More Plugins Support
+
+|   |
+| ------------- | ------------- | ------------- |
+| Dữ liệu 1     | Dữ liệu 2     | Dữ liệu 3     |
+| Dữ liệu 4     | Dữ liệu 5     | Dữ liệu 6     |
+| Dữ liệu 7     | Dữ liệu 8     | Dữ liệu 9     |
+
 ## aaPanel 
 
 ## CyperPanel
