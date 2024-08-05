@@ -11,26 +11,22 @@ Web panel (hoặc web hosting control panel) là một giao diện quản lý d�
 - Giám sát và Logs: Cung cấp công cụ để theo dõi hiệu suất máy chủ và xem các bản ghi hoạt động.
 - Hỗ trợ PHP và Các Công nghệ Web khác: Cho phép cấu hình các phiên bản PHP, công nghệ web khác, và cài đặt ứng dụng.
 
-|## DirectAdmin      |
-|:-------------------|----------:|
-|Giới hạn user/domain|           |
-|Webserver mặc định  |           |
-|File Manager - FTP  |           |
-|Multi PHP           |           |
-|DNS
-|Email
-|Free SSL
-|My SQL + PHPAdmin
-|Backup - Restore
-|Monitor - Logs
-|Security
-|More Plugins Support
+## DirectAdmin      
 
-|   |
-| ------------- | ------------- | ------------- |
-| Dữ liệu 1     | Dữ liệu 2     | Dữ liệu 3     |
-| Dữ liệu 4     | Dữ liệu 5     | Dữ liệu 6     |
-| Dữ liệu 7     | Dữ liệu 8     | Dữ liệu 9     |
+| Tiêu đề Cột 1          | Tiêu đề Cột 2 |
+| ---------------------- | ------------- |
+| Giới hạn user/domain   | Dữ liệu 2     |
+| Webserver mặc định     | Dữ liệu 4     |
+| File Manager - FTP     | Dữ liệu 6     |
+| Multi PHP              | Dữ liệu 2     |
+| DNS                    | Dữ liệu 4     |
+| Email                  | Dữ liệu 6     |
+| Free SSL               | Dữ liệu 2     |
+| My SQL + PHPAdmin      | Dữ liệu 4     |
+| Backup - Restore       | Dữ liệu 6     |
+| Monitor - Logs         | Dữ liệu 4     |
+| Security               | Dữ liệu 6     |
+| More Plugins Support   | Dữ liệu 4     |
 
 ## aaPanel 
 
