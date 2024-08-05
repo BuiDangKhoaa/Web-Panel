@@ -12,69 +12,104 @@ Web panel (hoặc web hosting control panel) là một giao diện quản lý d�
 - Hỗ trợ PHP và Các Công nghệ Web khác: Cho phép cấu hình các phiên bản PHP, công nghệ web khác, và cài đặt ứng dụng.
 
 ## DirectAdmin      
+Giới hạn user/domain: DirectAdmin cho phép bạn quản lý số lượng người dùng và tên miền theo giới hạn của gói dịch vụ mà bạn đã chọn.
 
-| Tiêu đề Cột 1          | Tiêu đề Cột 2     |
-| ---------------------- | ----------------  |
-| Giới hạn user/domain   | Giới hạn theo gói |
-| Webserver mặc định     | Apache            |
-| File Manager - FTP     | Có                |
-| Multi PHP              | Có                |
-| DNS                    | Có                |
-| Email                  | Có                |
-| Free SSL               | Có                |
-| My SQL + PHPAdmin      | Có                |
-| Backup - Restore       | Set up thủ công   |
-| Monitor - Logs         |                   |
-| Security               |                   |
-| More Plugins Support   |                   |
+Webserver mặc định: Apache là máy chủ web mặc định. Tuy nhiên, bạn cũng có thể cấu hình để sử dụng các máy chủ web khác như Nginx hoặc LiteSpeed.
+
+File Manager - FTP: Cung cấp giao diện quản lý tệp trực quan để tải lên, tải xuống, chỉnh sửa tệp và quản lý các thư mục. DirectAdmin cũng hỗ trợ FTP cho việc truyền tệp.
+
+Multi PHP: Hỗ trợ nhiều phiên bản PHP, cho phép bạn lựa chọn phiên bản PHP phù hợp cho từng website.
+
+DNS: Cung cấp công cụ quản lý DNS, cho phép bạn thêm, sửa đổi và xóa các bản ghi DNS như A, MX, CNAME, TXT, v.v.
+
+Email: Hỗ trợ quản lý tài khoản email, tạo các địa chỉ email theo tên miền của bạn và cung cấp các công cụ lọc spam, chuyển tiếp email, và thiết lập danh sách gửi thư.
+
+Free SSL: Cung cấp chứng chỉ SSL miễn phí, giúp bảo mật kết nối giữa trình duyệt và máy chủ.
+
+MySQL + PHPMyAdmin: Hỗ trợ MySQL để quản lý cơ sở dữ liệu và phpMyAdmin để quản lý các cơ sở dữ liệu thông qua giao diện web.
+
+Backup - Restore: Cung cấp tính năng sao lưu và phục hồi dữ liệu, giúp bạn bảo vệ thông tin quan trọng và khôi phục dữ liệu khi cần thiết.
+
+Monitor - Logs: Theo dõi và ghi lại các hoạt động của máy chủ, cung cấp thông tin về hiệu suất và các sự kiện hệ thống.
+
+Security: Tích hợp các tính năng bảo mật như tường lửa, bảo vệ chống tấn công DDoS, và các công cụ khác để bảo vệ máy chủ.
+
+More Plugins Support: Hỗ trợ mở rộng chức năng của DirectAdmin bằng cách cài đặt thêm các plugin từ bên thứ ba.
 
 ## aaPanel 
-| Tiêu đề Cột 1          | Tiêu đề Cột 2     |
-| ---------------------- | ----------------  |
-| Giới hạn user/domain   | Giới hạn theo gói |
-| Webserver mặc định     | Apache            |
-| File Manager - FTP     | Có                |
-| Multi PHP              |                   |
-| DNS                    |                   |
-| Email                  |                   |
-| Free SSL               |                   |
-| My SQL + PHPAdmin      |                   |
-| Backup - Restore       |                   |
-| Monitor - Logs         |                   |
-| Security               |                   |
-| More Plugins Support   |                   |
+Giới hạn user/domain: aaPanel không giới hạn số lượng người dùng và tên miền, giúp bạn tự do quản lý nhiều tài khoản và tên miền trên cùng một máy chủ.
+
+Webserver mặc định: aaPanel hỗ trợ nhiều máy chủ web như Apache, Nginx, và OpenLiteSpeed. Người dùng có thể dễ dàng chuyển đổi giữa các máy chủ này thông qua giao diện quản lý.
+
+File Manager - FTP: aaPanel cung cấp trình quản lý tệp trực quan, cho phép người dùng tải lên, tải xuống, chỉnh sửa, và quản lý tệp. Ngoài ra, aaPanel còn hỗ trợ giao thức FTP để truyền tệp.
+
+Multi PHP: Hỗ trợ nhiều phiên bản PHP. Bạn có thể dễ dàng cài đặt và cấu hình các phiên bản PHP khác nhau cho từng trang web thông qua giao diện của aaPanel.
+
+DNS: aaPanel có tích hợp công cụ quản lý DNS, cho phép bạn tạo, sửa đổi và xóa các bản ghi DNS.
+
+Email: aaPanel không hỗ trợ email server mặc định, nhưng bạn có thể cài đặt và cấu hình các máy chủ email riêng biệt nếu cần.
+
+Free SSL: Cung cấp chứng chỉ SSL miễn phí thông qua Let's Encrypt, giúp bảo mật kết nối của trang web.
+
+MySQL + PHPMyAdmin: Hỗ trợ MySQL và cung cấp phpMyAdmin để quản lý cơ sở dữ liệu một cách dễ dàng qua giao diện web.
+
+Backup - Restore: aaPanel cung cấp tính năng sao lưu và khôi phục, cho phép người dùng tạo bản sao lưu định kỳ và khôi phục dữ liệu khi cần thiết.
+
+Monitor - Logs: aaPanel cho phép giám sát hiệu suất máy chủ và theo dõi các bản ghi hoạt động, giúp người dùng nắm bắt được tình trạng của hệ thống.
+
+Security: Cung cấp các tính năng bảo mật như tường lửa, bảo vệ chống tấn công DDoS và các công cụ bảo mật khác để bảo vệ máy chủ.
+
+More Plugins Support: aaPanel hỗ trợ cài đặt các plugin bổ sung để mở rộng chức năng, bao gồm hỗ trợ Docker, quản lý tệp tin, bảo mật, và nhiều tính năng khác.
 
 ## CyperPanel
-| Tiêu đề Cột 1          | Tiêu đề Cột 2     |
-| ---------------------- | ----------------  |
-| Giới hạn user/domain   | Giới hạn theo gói |
-| Webserver mặc định     | Apache            |
-| File Manager - FTP     | Có                |
-| Multi PHP              |                   |
-| DNS                    |                   |
-| Email                  |                   |
-| Free SSL               |                   |
-| My SQL + PHPAdmin      |                   |
-| Backup - Restore       |                   |
-| Monitor - Logs         |                   |
-| Security               |                   |
-| More Plugins Support   |                   |
+Giới hạn user/domain: CyberPanel hỗ trợ nhiều người dùng và tên miền không bị giới hạn, giúp bạn quản lý nhiều tài khoản và tên miền trên cùng một máy chủ.
+
+Webserver mặc định: CyberPanel sử dụng OpenLiteSpeed làm máy chủ web mặc định. Nó cũng hỗ trợ cấu hình LiteSpeed Enterprise.
+
+File Manager - FTP: Cung cấp trình quản lý tệp trực quan và hỗ trợ FTP để truyền tệp.
+
+Multi PHP: Hỗ trợ nhiều phiên bản PHP, cho phép bạn dễ dàng chọn phiên bản PHP phù hợp cho từng trang web.
+
+DNS: Cung cấp công cụ quản lý DNS tích hợp, giúp bạn dễ dàng tạo và quản lý các bản ghi DNS.
+
+Email: CyberPanel tích hợp máy chủ email Mailu và RainLoop để quản lý email và cung cấp các tính năng như lọc spam và chuyển tiếp email.
+
+Free SSL: Cung cấp chứng chỉ SSL miễn phí thông qua Let's Encrypt, giúp bảo mật kết nối giữa trình duyệt và máy chủ.
+
+MySQL + PHPMyAdmin: Hỗ trợ MySQL và cung cấp phpMyAdmin để quản lý cơ sở dữ liệu qua giao diện web.
+
+Backup - Restore: CyberPanel cung cấp các công cụ sao lưu và phục hồi để bảo vệ dữ liệu và dễ dàng khôi phục khi cần thiết.
+
+Monitor - Logs: Cung cấp công cụ giám sát hiệu suất máy chủ và theo dõi các bản ghi hoạt động của hệ thống.
+
+Security: Tích hợp các tính năng bảo mật như tường lửa, bảo vệ chống tấn công DDoS, và các công cụ bảo mật khác.
+
+More Plugins Support: CyberPanel hỗ trợ cài đặt các plugin bổ sung để mở rộng chức năng, bao gồm hỗ trợ Docker, các công cụ bảo mật nâng cao, và nhiều tính năng khác.
 
 ## VestaCP
-| Tiêu đề Cột 1          | Tiêu đề Cột 2     |
-| ---------------------- | ----------------  |
-| Giới hạn user/domain   | Giới hạn theo gói |
-| Webserver mặc định     | Apache            |
-| File Manager - FTP     | Có                |
-| Multi PHP              |                   |
-| DNS                    |                   |
-| Email                  |                   |
-| Free SSL               |                   |
-| My SQL + PHPAdmin      |                   |
-| Backup - Restore       |                   |
-| Monitor - Logs         |                   |
-| Security               |                   |
-| More Plugins Support   |                   |
+Giới hạn user/domain: VestaCP cho phép bạn quản lý nhiều người dùng và tên miền mà không có giới hạn cứng nhắc, nhưng số lượng có thể bị ảnh hưởng bởi gói dịch vụ của bạn.
+
+Webserver mặc định: VestaCP hỗ trợ Apache và Nginx. Nginx có thể được cấu hình làm máy chủ web chính hoặc phụ cho Apache.
+
+File Manager - FTP: Cung cấp trình quản lý tệp trực quan và hỗ trợ FTP cho việc truyền tệp và quản lý thư mục.
+
+Multi PHP: Hỗ trợ nhiều phiên bản PHP, cho phép bạn chọn phiên bản PHP phù hợp cho từng trang web.
+
+DNS: Cung cấp công cụ quản lý DNS tích hợp, cho phép bạn tạo, chỉnh sửa và xóa các bản ghi DNS.
+
+Email: VestaCP tích hợp máy chủ email với các công cụ quản lý email, bao gồm các chức năng như lọc spam, chuyển tiếp email, và quản lý hộp thư.
+
+Free SSL: Cung cấp chứng chỉ SSL miễn phí thông qua Let's Encrypt, giúp bảo mật kết nối giữa trình duyệt và máy chủ.
+
+MySQL + PHPMyAdmin: Hỗ trợ MySQL và cung cấp phpMyAdmin để quản lý cơ sở dữ liệu qua giao diện web.
+
+Backup - Restore: Cung cấp các tính năng sao lưu và phục hồi để bảo vệ dữ liệu và dễ dàng khôi phục khi cần thiết.
+
+Monitor - Logs: VestaCP cho phép bạn theo dõi hiệu suất máy chủ và xem các bản ghi hoạt động của hệ thống.
+
+Security: Cung cấp các công cụ bảo mật như tường lửa, bảo vệ chống tấn công DDoS, và các công cụ khác để bảo vệ máy chủ của bạn.
+
+More Plugins Support: VestaCP hỗ trợ một số plugin và tính năng mở rộng, nhưng khả năng mở rộng có thể không phong phú như các web panel khác.
 
 ## So sánh chung 
 | STT | Tiêu Chí                            | DirectAdmin        | aaPanel                      | CyberPanel              | VestaCP                         |
